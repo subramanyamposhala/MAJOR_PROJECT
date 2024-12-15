@@ -1,0 +1,245 @@
+version: "3.1"
+
+stories:
+  - story: greet user with mood great
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+  
+  - story: greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user challenges the bot
+    steps:
+      - intent: bot_challenge
+      - action: utter_bot_challenge
+ 
+
+  - story:  ask genre recommendation
+    steps:
+      - intent: choose_genre
+      - action: utter_ask_genre_recommendation
+
+  - story:  with sad path (affirm)
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+
+  - story: user asks about the bot
+    steps:
+      - intent: ask_about_bot
+      - action: utter_iamabot
+
+  
+  - story: with sad path (deny)
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+
+  
+  - story: thank you response
+    steps:
+     - intent: thank_you
+     - action: utter_thank_you
+  
+
+  - story: choose_genre_story
+    steps:
+      - intent: choose_genre
+      - action: utter_ask_genre_recommendation
+      - intent: choose_genre
+      - action: utter_horror
+      - action: utter_adventure
+      - action: utter_comedy
+      - action: utter_thriller
+      - action: utter_romantic
+
+  - story: ask for movie genre
+    steps:
+    - intent: ask_movie_genre
+    - action: utter_ask_movie_genre
+
+  - story: choose_genre_story
+    steps:
+    - intent: choose_genre
+    - action: utter_ask_genre
+
+  - story: ask_for_language
+    steps:
+      - intent: ask_language
+      - action: utter_ask_language
+
+  - story: choose a genre
+    steps:
+    - intent: choose_genre
+      entities:
+        - genre: horror
+    - action: utter_horror
+
+  - story: respond to genre recommendation
+    steps:
+    - intent: ask_genre_recommendation
+    - action: utter_ask_genre_recommendation
+
+  - story: action_movie_recommendation
+    steps:
+    - intent: recommend_action_movie
+    - action: utter_recommend_action_movie
+
+  - story: adventure_movie_recommendation
+    steps:
+    - intent: recommend_adventure_movie
+    - action: utter_recommend_adventure_movie
+
+  - story: animated_movie_recommendation
+    steps:
+    - intent: recommend_animated_movie
+    - action: utter_recommend_animated_movie
+
+  - story: comedy_movie_recommendation
+    steps:
+    - intent: recommend_comedy_movie
+    - action: utter_recommend_comedy_movie
+
+  - story: drama_movie_recommendation
+    steps:
+    - intent: recommend_drama_movie
+    - action: utter_recommend_drama_movie
+  - story: fantasy_movie_recommendation
+    steps:
+    - intent: recommend_fantasy_movie
+    - action: utter_recommend_fantasy_movie
+
+  - story: historical_movie_recommendation
+    steps:
+    - intent: recommend_historical_movie
+    - action: utter_recommend_historical_movie
+
+  - story: horror_movie_recommendation
+    steps:
+    - intent: recommend_horror_movie
+    - action: utter_recommend_horror_movie
+
+  - story: musical_movie_recommendation
+    steps:
+    - intent: recommend_musical_movie
+    - action: utter_recommend_musical_movie
+  - story: romance_movie_recommendation
+    steps:
+    - intent: recommend_romance_movie
+    - action: utter_recommend_romance_movie
+
+  - story: scifi_movie_recommendation
+    steps:
+    - intent: recommend_scifi_movie
+    - action: utter_recommend_scifi_movie
+  
+  - story: thriller_movie_recommendation
+    steps:
+    - intent: recommend_thriller_movie
+    - action: utter_recommend_thriller_movie
+  
+  - story: western_movie_recommendation
+    steps:
+    - intent: recommend_western_movie
+    - action: utter_recommend_western_movie
+  
+  - story: hybrid_genre_movie_recommendation
+    steps:
+    - intent: recommend_hybrid_genre_movie
+    - action: utter_recommend_hybrid_genre_movie
+  
+  - story: ask_movie_details_story
+    steps:
+    - intent: ask_movie_details
+    - action: utter_ask_movie_details
+  
+  - story: ask_movie_recommendation_story
+    steps:
+    - intent: ask_movie_recommendation
+    - action: utter_ask_movie_recommendation
+
+  - story: ask_worst_movies_story
+    steps:
+    - intent: ask_worst_movies
+    - action: utter_ask_worst_movies
+  
+  - story: popular_telugu_movies
+    steps:
+    - intent: ask_for_telugu_movies
+    - action: utter_telugu_movies
+
+  - story: Movies of Prabhas
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "Prabhas"
+      - action: utter_actor_movies
+
+  - story: Movies of Pawan Kalyan
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "Pawan Kalyan"
+      - action: utter_actor_movies
+
+  - story: Movies of Mahesh Babu
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "Mahesh Babu"
+      - action: utter_actor_movies
+
+  - story: Movies of NTR
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "NTR"
+      - action: utter_actor_movies
+
+  - story: Movies of Nani
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "Nani"
+      - action: utter_actor_movies
+
+  - story: Movies of Allu Arjun
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "Allu Arjun"
+      - action: utter_actor_movies
+
+  - story: Movies of Ram Charan
+    steps:
+      - intent: get_actor_movies
+        entities:
+          - actor_name: "Ram Charan"
+      - action: utter_actor_movies
+
+
+  
+
+
+
+
+  
+
+

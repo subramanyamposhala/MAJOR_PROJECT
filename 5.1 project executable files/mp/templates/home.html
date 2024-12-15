@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Pacifico&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>SilverScreen AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/home.css')}}">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">SilverScreen AI</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#get-started" class="btn">GET STARTED</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Which Genre Movies You Wanttt...<br>I will give you the<br>bestt recommended movieee...</h2><br>
+        <p>Experience seamless movie recommendations and information retrieval with Moviebot, your intelligence assistant powered by Rasa NLU.</p>
+        <a href="#get-started" class="btn">GET STARTED</a>
+      </div>
+      <div class="hero-image">
+        <img src="static/assets/img/sliverscreen home page.webp" alt="Wall-E Robot">
+      </div>
+    </div>
+  </section>
+  <!--about-->
+  <main >
+    <section class="about" id="about">
+        <div id="abpa">
+            <img src="static/assets/img/about.webp" >
+            <div class="matter">
+            <h2>About SilverScreen AI</h2>
+            <p>SilverScreen AI is not just another movie recommendation platform; it is a sophisticated, AI-powered assistant that brings your movie-watching experience to life. Our platform leverages the latest in <strong>Natural Language Understanding (NLU)</strong>, enabling seamless conversations and highly personalized suggestions tailored specifically to your taste. Whether you're a fan of action-packed thrillers, heartwarming rom-coms, or thought-provoking documentaries, SilverScreen AI is your ultimate movie companion.</p>
+        
+            <p>With SilverScreen AI, every recommendation is unique, learning from your preferences over time. From trending blockbusters to hidden gems, we bring a world of cinematic experiences at your fingertips. Our platform doesn’t just recommend movies; it understands your mood, genre preferences, and even past watch history, making sure every movie suggestion feels like it was handpicked for you.</p>
+        
+            <h3>Features:</h3>
+            <ul>
+                <li><strong>Personalized Recommendations:</strong> Powered by AI and Rasa NLU, SilverScreen AI understands natural language, giving you highly customized suggestions.</li>
+                <li><strong>Intelligent Query Handling:</strong> Ask anything about movies, whether it's genre-based, actor-related, or even trending.</li>
+                <li><strong>Movie Discovery:</strong> Discover films you might never have come across, based on your interests and viewing history.</li>
+                <li><strong>Real-time Updates:</strong> Stay up-to-date with new releases, ratings, and trending films.</li>
+            </ul>
+        
+            <h2>How It Works</h2>
+            <p>SilverScreen AI revolutionizes movie discovery with its intuitive chatbot interface. Whether you're undecided on what to watch tonight or looking for suggestions based on your mood, simply engage with the assistant and let it do the work. The assistant’s smart, conversational interface asks simple questions about your preferences, and based on your inputs, it curates a list of movies perfect for your occasion.</p>
+        
+            <p>From <strong>blockbusters</strong> to <strong>indie masterpieces</strong>, SilverScreen AI offers suggestions that fit your taste, helping you explore movies that match your mood, genre preference, or even specific actors. It even learns from your previous choices, refining its recommendations as you interact more with it.</p>
+        
+            <h3>How it helps you:</h3>
+            <ul>
+                <li><strong>Mood-based Recommendations:</strong> Feeling adventurous? In the mood for laughter? Let SilverScreen AI suggest films that match your vibe.</li>
+                <li><strong>AI-Powered Suggestions:</strong> Not only does it learn your preferences, but it also tracks popular trends, user ratings, and the latest releases to offer the best picks.</li>
+                <li><strong>Comprehensive Movie Information:</strong> Along with suggestions, SilverScreen AI provides detailed information about each movie, including reviews, synopsis, trailers, and ratings.</li>
+            </ul>
+            <p>In short, <strong>SilverScreen AI</strong> is more than just a movie recommender—it's an intelligent movie companion that learns from you and delivers an evolving, personalized, and delightful cinematic journey.</p>
+            </div>
+        </div>
+        </section>
+  </main>
+<!--ask me-->
+  <section class="chatbox" id="get-started">
+    <div class="chat-container">
+      <h2>Welcome to MovieBot!</h2>
+      <p>Ask me anything about movies, genres, or recommendations!</p>
+
+      <div class="chat-box" id="chat-box">
+        <!-- Chat messages will appear here -->
+      </div>
+
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </section>
+<!--contact-->
+  <section class="contact" id="contact">
+        <header>
+            <h1>Contact Us - SilverScreen AI</h1>
+            <p>We'd love to hear from you! Whether you have a question, feedback, or just want to connect, don't hesitate to reach out to us.</p>
+        </header>
+
+        <section class="contact-details">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><strong>Email:</strong> <a href="mailto:contact@silverscreenai.com">contact@silverscreenai.com</a></p>
+                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                <p><strong>Address:</strong> 123 Tech Avenue, City, Country, ZIP</p>
+            </div>
+            
+            <div class="social-media">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://facebook.com/silverscreenai">Facebook</a></li>
+                    <li><a href="https://twitter.com/silverscreenai">Twitter</a></li>
+                    <li><a href="https://linkedin.com/company/silverscreenai">LinkedIn</a></li>
+                    <li><a href="https://instagram.com/silverscreenai">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Please type your mesage/query/suggestion" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 SilverScreen AI. All rights reserved.</p>
+  </footer>
+</body>
+
+<script>
+  function sendMessage() {
+    const userMessage = document.getElementById('user-input').value;
+    if (userMessage.trim()) {
+        // Display user message
+        const userMessageElement = document.createElement('div');
+        userMessageElement.classList.add('user-message');
+        userMessageElement.innerHTML = `<strong>You:</strong> ${userMessage}`;
+        document.getElementById('chat-box').appendChild(userMessageElement);
+
+        // Show thinking message
+        const botMessageElement = document.createElement('div');
+        botMessageElement.classList.add('bot-message');
+        botMessageElement.innerHTML = `<strong>MovieBot:</strong> Thinking...`;
+        document.getElementById('chat-box').appendChild(botMessageElement);
+
+        // Scroll to the latest message
+        document.getElementById('chat-box').scrollTop = document.getElementById('chat-box').scrollHeight;
+
+        // Clear input
+        document.getElementById('user-input').value = '';
+
+        // Send message to Flask backend
+        fetch('http://127.0.0.1:5000/webhook', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ message: userMessage })
+        })
+        .then(response => response.json())
+        .then(data => {
+            botMessageElement.remove(); // Remove thinking message
+
+            // Append bot's response
+            const botResponseElement = document.createElement('div');
+            botResponseElement.classList.add('bot-message');
+            botResponseElement.innerHTML = `<strong>MovieBot:</strong> ${data.response}`;
+            document.getElementById('chat-box').appendChild(botResponseElement);
+
+            // Scroll to the latest message
+            document.getElementById('chat-box').scrollTop = document.getElementById('chat-box').scrollHeight;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            botMessageElement.remove(); // Remove thinking message
+
+            // Display error message
+            const errorElement = document.createElement('div');
+            errorElement.classList.add('bot-message');
+            errorElement.innerHTML = `<strong>MovieBot:</strong> Sorry, there was an error processing your request.`;
+            document.getElementById('chat-box').appendChild(errorElement);
+        });
+    }
+}
+
+</script>
+
+</html>

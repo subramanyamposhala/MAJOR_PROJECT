@@ -1,0 +1,162 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: user asks if the bot is a bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- rule: Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_nlu_fallback
+
+- rule: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Respond to ask_about_bot
+  steps:
+  - intent: ask_about_bot
+  - action: utter_iamabot
+
+
+
+- rule: ask_worst_movies_rule
+  steps:
+    - intent: ask_worst_movies
+    - action: utter_ask_worst_movies
+
+
+- rule: respond to triller genre
+  condition:
+      - slot_was_set:
+          - genre: thriller
+  steps:
+      - action: utter_recommend_movies_thriller
+
+- rule: respond to drama genre
+  condition:
+      - slot_was_set:
+          - genre: drama
+  steps:
+      - action: utter_recommend_movies_drama
+
+- rule: respond to romantic genre
+  condition:
+      - slot_was_set:
+          - genre: romantic
+  steps:
+      - action: utter_recommend_movies_romantic
+
+
+- rule: Respond to genre selection
+  steps:
+    - intent: choose_genre
+      entities:
+        - genre: horror
+    - action: utter_horror
+
+- rule: Respond to genre recommendation
+  steps:
+    - intent: ask_genre_recommendation
+    - action: utter_ask_genre_recommendation
+
+
+- rule: Recommend action movies
+  steps:
+    - intent: recommend_action_movie
+    - action: utter_recommend_action_movie
+
+- rule: Recommend adventure movies
+  steps:
+    - intent: recommend_adventure_movie
+    - action: utter_recommend_adventure_movie
+
+- rule: Recommend animated movies
+  steps:
+    - intent: recommend_animated_movie
+    - action: utter_recommend_animated_movie
+
+- rule: Recommend comedy movies
+  steps:
+    - intent: recommend_comedy_movie
+    - action: utter_recommend_comedy_movie
+
+- rule: Recommend drama movies
+  steps:
+    - intent: recommend_drama_movie
+    - action: utter_recommend_drama_movie
+
+- rule: Recommend fantasy movies
+  steps:
+    - intent: recommend_fantasy_movie
+    - action: utter_recommend_fantasy_movie
+
+- rule: Recommend historical movies
+  steps:
+    - intent: recommend_historical_movie
+    - action: utter_recommend_historical_movie
+
+- rule: Recommend horror movies
+  steps:
+    - intent: recommend_horror_movie
+    - action: utter_recommend_horror_movie
+
+- rule: Recommend musical movies
+  steps:
+    - intent: recommend_musical_movie
+    - action: utter_recommend_musical_movie
+
+- rule: Recommend romance movies
+  steps:
+    - intent: recommend_romance_movie
+    - action: utter_recommend_romance_movie
+
+- rule: Recommend sci-fi movies
+  steps:
+    - intent: recommend_scifi_movie
+    - action: utter_recommend_scifi_movie
+
+- rule: Recommend thriller movies
+  steps:
+    - intent: recommend_thriller_movie
+    - action: utter_recommend_thriller_movie
+
+- rule: Recommend western movies
+  steps:
+    - intent: recommend_western_movie
+    - action: utter_recommend_western_movie
+
+- rule: Recommend hybrid genre movies
+  steps:
+    - intent: recommend_hybrid_genre_movie
+    - action: utter_recommend_hybrid_genre_movie
+
+- rule: ask_movie_details_rule
+  steps:
+    - intent: ask_movie_details
+    - action: utter_ask_movie_details
+
+- rule: ask_movie_recommendation_rule
+  steps:
+    - intent: ask_movie_recommendation
+    - action: utter_ask_movie_recommendation
+
+
+- rule: Actor movie recommendation
+  steps:
+    - intent: get_actor_movies
+    - action: utter_actor_movies
+
+- rule: respond to popular Telugu movies
+  steps:
+    - intent: ask_for_telugu_movies
+    - action: utter_telugu_movies

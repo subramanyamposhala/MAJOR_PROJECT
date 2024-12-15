@@ -1,0 +1,677 @@
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_affirm:
+    - text: "Great! How can I help you further?"
+  utter_deny:
+    - text: "Okay, let me know if you change your mind."
+  utter_mood_great:
+    - text: "That's awesome! Keep up the great mood!"
+  utter_mood_unhappy:
+    - text: "I'm sorry to hear that. I hope things get better soon."
+  utter_bot_challenge:
+    - text: "Yes, I am a bot. How can I assist you?"
+  utter_iamabot:
+    - text: "I am a bot created to recommend movies! 😊"
+  utter_cheer_up:
+    - text: "Cheer up! Everything will be okay!"
+  utter_did_that_help:
+    - text: "Did that help? Let me know if you need further assistance!"
+  utter_ask_age:
+    - text: "How old are you?"
+  utter_answer_age:
+    - text: "I am an AI assistant, so I don't have an age like humans."
+  utter_get_name:
+    - text: "What is your full name?"
+  utter_nlu_fallback:
+    - text: "Sorry, I didn't quite catch that. Can you please clarify?"
+    - text: sorry, I didn't understand that!
+  utter_thank_you:
+    - text: "Thank you! I am here to help you!"
+  utter_ask_movie_genre:
+    - text: "Which genre do you prefer? Horror, adventure, comedy, thriller, romantic, or drama?"
+    
+  utter_ask_movie_recommendation:
+    - text: "I recommend 'Inception' (2010). It's a thrilling sci-fi film about dream infiltration."
+    - text: "How about 'Avatar' (2009)? A visually stunning tale set in Pandora."
+    - text: "'The Shawshank Redemption' (1994) is a classic about hope and friendship."
+    - text: "I recommend *Baahubali: The Beginning* (2015) by S.S. Rajamouli. It's an epic tale of a lost prince reclaiming his throne with breathtaking visuals and action."
+    - text: "How about *Arjun Reddy* (2017) by Sandeep Reddy Vanga? A bold and raw story of love, heartbreak, and self-discovery."
+    - text: "*Mahanati* (2018) by Nag Ashwin is a biographical drama about the legendary actress Savitri. It's inspiring and emotional."
+    - text: "Try *RRR* (2022) by S.S. Rajamouli, a fictional story of two revolutionaries during British rule, filled with action and grandeur."
+    - text: "I recommend *Kshanam* (2016) by Ravikanth Perepu, a gripping thriller about a desperate search for a missing child."
+    - text: "How about *Goodachari* (2018) by Sashi Kiran Tikka? A stylish spy thriller with unexpected twists."
+
+  utter_recommend_action_movie:
+    - text: |
+        Here are some action-packed recommendations:
+        - *Mad Max: Fury Road* (2015) by George Miller: A high-octane chase through a desert wasteland.
+        - *John Wick* (2014) by Chad Stahelski: A retired hitman seeking revenge.
+        - *The Dark Knight* (2008) by Christopher Nolan: Batman faces off against the Joker in Gotham City.
+        Do you prefer superheroes or intense stunts?
+    - text: |
+        Here are some action-packed Telugu movies:
+        - *Baahubali: The Beginning* (2015) by S.S. Rajamouli: A prince's journey to reclaim his rightful throne, filled with epic battles.
+        - *RRR* (2022) by S.S. Rajamouli: A fictional story about two revolutionaries during British rule.
+        - *Sarileru Neekevvaru* (2020) by Anil Ravipudi: A soldier uncovers a plot while protecting a family.
+        Do you enjoy historical or modern action?
+    - text: |
+        Try these as well:
+        - *Ala Vaikunthapurramuloo* (2020) by Trivikram Srinivas: A blend of action and family drama with stylish fight scenes.
+        - *Khaidi* (2019) by Lokesh Kanagaraj: A gritty story about a prisoner on a mission to save lives.
+    - text: |
+        How about:
+        - *Gladiator* (2000) by Ridley Scott: A Roman general-turned-gladiator fights for vengeance.
+        - *Skyfall* (2012) by Sam Mendes: James Bond confronts a threat from M16's past.
+
+  utter_recommend_adventure_movie:
+    - text: |
+        Here are some exciting adventure movies:
+        - *Indiana Jones: Raiders of the Lost Ark* (1981) by Steven Spielberg: A thrilling quest for the Ark of the Covenant.
+        - *The Hobbit* (2012) by Peter Jackson: A journey through Middle-earth with Bilbo Baggins.
+        - *Life of Pi* (2012) by Ang Lee: A boy stranded on a lifeboat with a tiger.  
+        Which setting excites you most?
+    - text: |
+        Telugu adventure movies you might enjoy:
+        - *Arjun Reddy* (2017) by Sandeep Reddy Vanga: A bold tale of love and a young man's emotional journey.
+        - *Eega* (2012) by S.S. Rajamouli: An incredible story of a man reincarnated as a housefly to take revenge.
+        - *Swades* (2004, Telugu dubbed) by Ashutosh Gowariker: A scientist reconnects with his roots in India.
+    - text: |
+        How about these:
+        - *Bimbisara* (2022) by Mallidi Vasishta: A time-travel adventure involving a ruthless king.
+        - *Magadheera* (2009) by S.S. Rajamouli: A reincarnation story with epic action and romance.
+
+    - text: |
+        Try these:
+        - *Pirates of the Caribbean* (2003) by Gore Verbinski: Swashbuckling adventures with Captain Jack Sparrow.
+        - *Up* (2009) by Pete Docter: An elderly man embarks on an airborne adventure.
+
+  utter_recommend_animated_movie:
+    - text: |
+        Here are some animated gems:
+        - *Toy Story* (1995) by John Lasseter: The first fully computer-animated film, following toys that come to life.
+        - *Frozen* (2013) by Chris Buck and Jennifer Lee: Two sisters navigate magic and family bonds.
+        - *Zootopia* (2016) by Byron Howard and Rich Moore: A rabbit cop and a fox conman solve a city-wide mystery.
+        Do you prefer something for kids or all ages?
+    - text: |
+        Animated Telugu movies you might like:
+        - *Chhota Bheem and the Curse of Damyaan* (2012, Telugu dubbed): A fun adventure where Bheem battles an evil sorcerer.
+        - *Eega* (2012) by S.S. Rajamouli: A groundbreaking mix of animation and live-action, featuring a vengeful housefly.
+        - *Hanuman* (2005): A mythological animated tale about Lord Hanuman’s childhood adventures.
+    - text: |
+        Consider:
+        - *Inside Out* (2015) by Pete Docter: A story about emotions inside a young girl's mind.
+        - *The Lion King* (1994) by Rob Minkoff and Roger Allers: A tale of love, loss, and redemption in the African savanna.
+
+  utter_recommend_comedy_movie:
+    - text: |
+        For some laughs:
+        - *Superbad* (2007) by Greg Mottola: A high school comedy about friendship and growing up.
+        - *The Hangover* (2009) by Todd Phillips: A bachelor party gone hilariously wrong.
+        - *Crazy Rich Asians* (2018) by Jon M. Chu: A rom-com exploring cultural differences and wealth.
+        - text: |
+        For laughs, try these Telugu comedies:
+        - *Jathi Ratnalu* (2021) by Anudeep K.V.: A hilarious tale of three friends caught in absurd situations.
+        - *F2: Fun and Frustration* (2019) by Anil Ravipudi: A comedy about marital frustrations and friendships.
+        - *Dookudu* (2011) by Srinu Vaitla: A mix of comedy and action as an undercover cop seeks revenge.
+    - text: |
+        More fun options:
+        - *Bhale Bhale Magadivoy* (2015) by Maruthi Dasari: A romantic comedy about a forgetful scientist.
+        - *Venky* (2004) by Sreenu Vaitla: A humorous story about accidental involvement in a crime.
+
+
+  utter_recommend_romance_movie:
+    - text: |
+        Here are some romance movie recommendations:
+        - The Notebook (2004): A classic romance about Noah and Allie, who fall in love despite family pressures and differences. A deeply emotional and heartwarming film.
+        - Malli Malli Idi Rani Roju (2015): A beautiful Telugu romance about a couple who are separated by circumstances and come together years later to rekindle their love.
+        - Geetha Govindam (2018): A lighthearted Telugu romantic comedy where the protagonist must prove his sincerity after an unexpected misunderstanding with the woman he falls in love with.
+        - The Vow (2012): A love story about a couple whose lives are turned upside down when the wife loses her memory. The husband must win her love all over again.
+        - F2: Fun and Frustration (2019): A Telugu romantic comedy about two men who struggle with their relationships and how they navigate through it with humor.
+        - Crazy, Stupid, Love (2011): A funny, heartwarming film about a man navigating life after his wife asks for a divorce, while being mentored by a bachelor.
+        - 10 Things I Hate About You (1999): A rom-com based on *The Taming of the Shrew*, featuring witty banter and charming performances.
+        - Kshana Kshanam (1991): A Telugu classic romance that beautifully depicts the relationship between two strangers who get caught in an adventurous situation and grow close.
+        - Pride and Prejudice (2005): A beautiful adaptation of Jane Austen’s novel, featuring a slow-burn romance between Elizabeth Bennet and Mr. Darcy.
+        - Ye Maaya Chesave (2010): A Telugu movie about a love triangle between a young man, a woman, and her commitment to her family, beautifully captured with intense emotions.
+        - Arjun Reddy (2017): A Telugu film about an intense love triangle that tests the boundaries of love and commitment in an emotionally raw narrative.
+        - The Twilight Saga (2008-2012): A series about the love triangle between Bella, Edward, and Jacob, set against a supernatural backdrop.
+        - The Hunger Games (2012): A dystopian action film with a love triangle involving Katniss, Peeta, and Gale.
+
+
+  
+  utter_recommend_drama_movie:
+    - text: |
+        Drama enthusiasts might enjoy:
+        - *The Shawshank Redemption* (1994) by Frank Darabont: A story of hope and resilience in prison.
+        - *The Pursuit of Happyness* (2006) by Gabriele Muccino: A father struggles to create a better life for his son.
+        - *Marriage Story* (2019) by Noah Baumbach: A raw depiction of love, separation, and family.
+    - text: |
+        For drama enthusiasts:
+        - *Mahanati* (2018) by Nag Ashwin: The biographical story of legendary actress Savitri.
+        - *Jersey* (2019) by Gowtam Tinnanuri: A cricketer's inspiring journey to achieve his dream.
+        - *C/O Kancharapalem* (2018) by Venkatesh Maha: A beautifully woven tale of love and life in a small town.
+    - text: |
+        Consider these as well:
+        - *Srimanthudu* (2015) by Koratala Siva: A billionaire adopts a village and transforms it.
+        - *Godavari* (2006) by Sekhar Kammula: A touching love story set against the backdrop of the Godavari River.
+    - text: |
+        Try these heartfelt dramas:
+        - *Forrest Gump* (1994) by Robert Zemeckis: A tale of an extraordinary life through history.
+        - *A Beautiful Mind* (2001) by Ron Howard: A mathematical genius battles mental illness.
+
+    
+
+  utter_recommend_fantasy_movie:
+    - text: |
+        For magical adventures:
+        - *The Lord of the Rings* (2001–2003) by Peter Jackson: A legendary journey to destroy the One Ring.
+        - *Harry Potter* (2001–2011) by Chris Columbus, Alfonso Cuarón, and others: A young wizard's journey at Hogwarts.
+        - *Pan's Labyrinth* (2006) by Guillermo del Toro: A dark fantasy set against post-Civil War Spain.
+    - text: |
+        Explore Telugu fantasy films like:
+        - *Anji* (2004) by Kodi Ramakrishna: A quest to protect a mystical treasure from evil forces.
+        - *Jagadeka Veerudu Athiloka Sundari* (1990) by K. Raghavendra Rao: A man falls in love with a celestial being.
+        - *Brahmāstra: Part One – Shiva* (2022, Telugu dubbed) by Ayan Mukerji: A magical tale about discovering ancient powers.
+    - text: |
+        You might also enjoy:
+        - *Pelli Sandadi* (1996) by K. Raghavendra Rao: A charming musical fantasy filled with love and humor.
+        - *Ammoru* (1995) by Kodi Ramakrishna: A divine goddess protects a devotee from dark forces.
+
+    - text: |
+        You might also enjoy:
+        - *Stardust* (2007) by Matthew Vaughn: A magical quest in a fantasy kingdom.
+        - *The Chronicles of Narnia* (2005–2010) by Andrew Adamson: Children discover a mystical world through a wardrobe.
+
+  utter_recommend_historical_movie:
+    - text: |
+        Consider these historical films:
+        - *Schindler's List* (1993) by Steven Spielberg: The true story of a man who saved Jewish lives during WWII.
+        - *Braveheart* (1995) by Mel Gibson: The story of William Wallace's fight for Scottish independence.
+        - *Dunkirk* (2017) by Christopher Nolan: A gripping depiction of WWII's Dunkirk evacuation.
+    - text: |
+        Telugu historical movies to check out:
+        - *Sye Raa Narasimha Reddy* (2019) by Surender Reddy: The inspiring story of India's first freedom fighter.
+        - *Gautamiputra Satakarni* (2017) by Krish: A story of the powerful Satavahana king.
+        - *Rudhramadevi* (2015) by Gunasekhar: The tale of a warrior queen in ancient India.
+    - text: |
+        Consider these:
+        - *Shankarabharanam* (1979) by K. Viswanath: A classic film celebrating Carnatic music and tradition.
+        - *Alluri Seetharama Raju* (1974) by V. Ramachandra Rao: A tribute to the revolutionary leader.
+
+    - text: |
+        Here are more suggestions:
+        - *The King's Speech* (2010) by Tom Hooper: King George VI's struggle to overcome his stammer.
+        - *Gladiator* (2000) by Ridley Scott: A Roman general's quest for revenge and justice.
+
+  utter_recommend_horror_movie:
+    - text: |
+        Prepare for chills:
+        - *The Conjuring* (2013) by James Wan: Paranormal investigators take on a haunted farmhouse.
+        - *Hereditary* (2018) by Ari Aster: A chilling family tragedy that spirals into the supernatural.
+        - *Get Out* (2017) by Jordan Peele: A psychological horror about race and trust.
+    - text: |
+        Get spooked with these Telugu horrors:
+        - *Arundhati* (2009) by Kodi Ramakrishna: A reincarnation tale involving a cursed palace.
+        - *Kanchana* (2011) by Raghava Lawrence: A mix of horror and comedy involving a ghost seeking justice.
+        - *Gruham* (2017) by Milind Rau: A spine-chilling story of a couple facing paranormal events.
+    - text: |
+        More horror films:
+        - *Prema Katha Chitram* (2013) by J. Prabhakar Reddy: A horror-comedy revolving around a haunted farmhouse.
+        - *Avunu* (2012) by Ravi Babu: A psychological horror about a ghost haunting a newlywed couple.
+    - text: |
+        Try these:
+        - *A Quiet Place* (2018) by John Krasinski: A family lives in silence to evade deadly creatures.
+        - *The Babadook* (2014) by Jennifer Kent: A haunting story of grief and fear.
+
+  utter_recommend_musical_movie:
+    - text: |
+        Musical fans might love:
+        - *The Greatest Showman* (2017) by Michael Gracey: A spectacular showman's rise to fame.
+        - *La La Land* (2016) by Damien Chazelle: A romantic musical about dreams and love in Los Angeles.
+        - *Mamma Mia!* (2008) by Phyllida Lloyd: A fun story set to ABBA's greatest hits.
+    - text: |
+        Enjoy the music with these Telugu films:
+        - *Shankarabharanam* (1979) by K. Viswanath: A timeless classic celebrating Carnatic music.
+        - *Gamyam* (2008) by Krish: A soulful journey filled with melodious songs and strong emotions.
+        - *Sruthilayalu* (1987) by K. Viswanath: A musical journey of a classical singer.
+    - text: |
+        Consider:
+        - *Malliswari* (1951) by B. N. Reddy: A classic romance set against traditional Telugu music.
+        - *Swathi Muthyam* (1986) by K. Viswanath: A musical tale of an autistic man's life.
+    - text: |
+        Consider:
+        - *Les Misérables* (2012) by Tom Hooper: An adaptation of Victor Hugo's classic novel.
+        - *Singin' in the Rain* (1952) by Gene Kelly and Stanley Donen: A joyful take on Hollywood's transition to sound.
+
+  utter_recommend_scifi_movie:
+    - text: |
+        Explore the future with:
+        - *Interstellar* (2014) by Christopher Nolan: Humanity's journey through a wormhole.
+        - *Blade Runner 2049* (2017) by Denis Villeneuve: A haunting exploration of artificial life.
+        - *The Matrix* (1999) by The Wachowskis: A dystopian sci-fi with groundbreaking action.
+        - text: |
+        Explore sci-fi in Telugu:
+        - *Aditya 369* (1991) by Singeetam Srinivasa Rao: A time-travel adventure involving a mysterious device.
+        - *24* (2016) by Vikram Kumar: A brilliant tale of time travel and sibling rivalry.
+        - *Eega* (2012) by S.S. Rajamouli: A reincarnation story with stunning visual effects.
+    - text: |
+        You might also like:
+        - *Robot* (2010, Telugu dubbed) by S. Shankar: A story about artificial intelligence and its consequences.
+        - *Antariksham 9000 KMPH* (2018) by Sankalp Reddy: A space thriller about a satellite mission.
+    - text: |
+        Try these sci-fi classics:
+        - *Inception* (2010) by Christopher Nolan: A thrilling dive into dreams within dreams.
+        - *Dune* (2021) by Denis Villeneuve: A visually stunning epic about power and survival.
+
+  utter_recommend_thriller_movie:
+    - text: |
+        Stay on the edge of your seat with:
+        - *Se7en* (1995) by David Fincher: Detectives chase a serial killer using the seven deadly sins.
+        - *Shutter Island* (2010) by Martin Scorsese: A psychological thriller set on a mysterious island.
+        - *Gone Girl* (2014) by David Fincher: A twisted tale of a missing wife and unreliable narratives.
+    - text: |
+        Keep yourself on edge with:
+        - *Goodachari* (2018) by Sashi Kiran Tikka: A gripping spy thriller.
+        - *Kshanam* (2016) by Ravikanth Perepu: A suspenseful story about a missing child.
+        - *Evaru* (2019) by Venkat Ramji: A murder mystery with unexpected twists.
+    - text: |
+        Try these:
+        - *Drushyam* (2014) by Sripriya: A thrilling story about a father protecting his family.
+        - *Anukokunda Oka Roju* (2005) by Chandra Sekhar Yeleti: A mystery about a missing day in a woman's life.
+    - text: |
+        Consider:
+        - *Prisoners* (2013) by Denis Villeneuve: A father's desperate search for his missing daughter.
+        - *The Girl with the Dragon Tattoo* (2011) by David Fincher: A dark and gripping mystery.
+
+  utter_recommend_western_movie:
+    - text: |
+        Western classics include:
+        - *The Good, the Bad, and the Ugly* (1966) by Sergio Leone: A tale of gunslingers in the Old West.
+        - *True Grit* (2010) by Joel and Ethan Coen: A young girl's quest for revenge.
+        - *Django Unchained* (2012) by Quentin Tarantino: A freed slave's mission to rescue his wife.
+    - text: |
+        For Western-inspired Telugu films:
+        - *Quick Gun Murugan* (2009) by Shashanka Ghosh: A parody of spaghetti Westerns with a South Indian twist.
+        - *Jai Lava Kusa* (2017) by K.S.
+    - text: |
+        Try these:
+        - *No Country for Old Men* (2007) by Joel and Ethan Coen: A gripping story of greed and survival.
+        - *Unforgiven* (1992) by Clint Eastwood: A retired gunslinger returns for one last job.
+
+        action:
+        - "Mad Max: Fury Road (2015): An intense action-packed film with breathtaking stunts and a post-apocalyptic storyline."
+        - "John Wick (2014): A fast-paced action movie about a retired hitman seeking revenge against those who wronged him."
+        - "Baahubali: The Beginning (2015): A Telugu action epic with grand visuals, intense battles, and a gripping story."
+  utter_recommend_hybrid_genre_movie:
+    - text: |
+        Here are some movies that blend genres beautifully:
+        - *The Matrix* (1999): A thrilling mix of science fiction, action, and philosophy, with mind-bending twists.
+        - *Inception* (2010): A film that combines heist, action, and science fiction in a story about dreams and reality.
+        - *Guardians of the Galaxy* (2014): A fun blend of action, sci-fi, and comedy with a ragtag group of space heroes.
+        Are you more into sci-fi action or fantasy adventures with a comedic twist?
+    - text: |
+        These hybrid genre movies may interest you:
+        - *Kill Bill: Vol. 1* (2003): A unique blend of martial arts, action, and drama.
+        - *Shaun of the Dead* (2004): A hilarious mix of zombie horror and comedy.
+        - *Eternal Sunshine of the Spotless Mind* (2004): A genre-defying romance with elements of sci-fi and drama.
+        Do you enjoy combining genres like comedy and horror or action and fantasy?
+    - text: |
+        If you're looking for something that mixes genres, check these out:
+        - *Pulp Fiction* (1994): A brilliant mix of crime, drama, and dark comedy with interwoven stories.
+        - *Scott Pilgrim vs. The World* (2010): A fantastic blend of romance, action, and video game aesthetics.
+        - *The Grand Budapest Hotel* (2014): A quirky mix of drama, comedy, and adventure with beautiful visual storytelling.
+ 
+  utter_ask_genre_recommendation:
+    - text: "Which genre do you prefer? Horror, adventure, comedy, thriller, romantic, or drama?"
+
+  utter_horror:
+    - text: |
+        A Quiet Place (2018): A suspenseful horror movie set in a post-apocalyptic world where monsters hunt by sound.
+        The Conjuring (2013): A chilling film about paranormal investigators dealing with a family haunted by a dark entity.
+        Ratsasan (2018): A gripping Tamil horror-thriller about a cop investigating a series of brutal murders linked to an elusive serial killer.
+
+  utter_adventure:
+    - text: |
+        Indiana Jones and the Raiders of the Lost Ark (1981): A classic adventure film about an archaeologist searching for a lost artifact.
+        The Secret Life of Walter Mitty (2013): A heartwarming adventure that follows a man as he embarks on a journey to find a missing photo.
+        Kshana Kshanam (1991): A Telugu film that mixes adventure and romance, with a thrilling storyline about two strangers caught up in a dangerous situation.
+
+  utter_comedy:
+    - text: |
+        The Hangover (2009): A wild comedy about a bachelor party gone wrong, leading to a hilarious chain of events.
+        Superbad (2007): A coming-of-age comedy that follows two high school friends as they try to navigate their final days of school.
+        F2: Fun and Frustration (2019): A Telugu comedy about two frustrated husbands who try to fix their lives through humor and camaraderie.
+
+  utter_thriller:
+    - text: |
+        Inception (2010): A mind-bending thriller about a thief who enters people's dreams to steal secrets, but is tasked with planting an idea.
+        Shutter Island (2010): A psychological thriller set in a mental institution, with a gripping mystery that will keep you guessing.
+        Drushyam (2014): A Telugu thriller about a family man who tries to cover up a crime to protect his family.
+
+  utter_romantic:
+    - text: |
+        The Notebook (2004): A timeless romance about a couple who fall deeply in love but are separated by life's challenges.
+        Ye Maaya Chesave (2010): A Telugu romance about a young couple navigating the complexities of love, family, and commitment.
+        Pride and Prejudice (2005): A classic romantic drama about Elizabeth Bennet and Mr. Darcy overcoming social barriers to be together.
+        
+  utter_telugu_movies:
+    - text: |
+        Here are some popular Telugu movies:
+         - **RRR**  
+            Director: S. S. Rajamouli  
+            Description: A fictional epic drama about two revolutionaries in British India.  
+         - **Pushpa: The Rise**  
+            Director: Sukumar  
+            Description: A high-octane drama about red sandalwood smuggling.  
+         - **Ala Vaikunthapurramuloo**  
+            Director: Trivikram Srinivas  
+            Description: A family entertainer with drama, comedy, and romance.  
+         - **Sarrainodu**  
+            Director: Boyapati Srinu  
+            Description: An action film with a powerful hero fighting for justice.  
+         - **Jersey**  
+            Director: Gowtham Tinnanuri  
+            Description: A sports drama about a cricketer's journey.  
+         - **Baahubali: The Beginning**  
+            Director: S. S. Rajamouli  
+            Description: The first part of an epic saga revolving around a battle for the throne.  
+         - **Baahubali 2: The Conclusion**  
+            Director: S. S. Rajamouli  
+            Description: The sequel to Baahubali, exploring the story of a throne's legacy.  
+         - **Magadheera**  
+            Director: S. S. Rajamouli  
+            Description: A reincarnation-based drama with thrilling action sequences.  
+         - **Rangasthalam**  
+            Director: Sukumar  
+            Description: A village drama set in the 1980s with a touch of social issues.  
+         - **Gabbar Singh**  
+            Director: Harish Shankar  
+            Description: A cop drama with high-action moments and humor.
+  
+
+  utter_actor_movies:
+    - text: |
+        Here are some popular movies of Mahesh Babu:
+        - *Pokiri* (2006) – A high-octane action film.
+        - *Srimanthudu* (2015) – A young man's story of adopting a village.
+        - *Bharat Ane Nenu* (2018) – A political drama.
+        
+    - text: |
+        Here are some popular movies of Pawan Kalyan:
+        - *Gabbar Singh* (2012) – A powerful action-comedy.
+        - *Attarintiki Daredi* (2013) – A family drama with comedy and emotion.
+        - *Vakeel Saab* (2021) – A courtroom drama.
+
+    - text: |
+        Here are some popular movies of Allu Arjun:
+        - *Ala Vaikunthapurramuloo* (2020) – A family entertainer.
+        - *Sarrainodu* (2016) – High-energy action.
+        - *Pushpa: The Rise* (2021) – Red sandalwood smuggling story.
+
+    - text: |
+        Here are some popular movies of NTR Jr:
+        - *Temper* (2015) – A police drama.
+        - *Janatha Garage* (2016) – A social drama.
+        - *RRR* (2022) – Fictional epic with Ram Charan.
+
+    - text: |
+        Here are some popular movies of Ram Charan:
+        - *Magadheera* (2009) – A reincarnation drama.
+        - *Rangasthalam* (2018) – A period drama.
+        - *RRR* (2022) – An action-packed epic.
+
+    - text: |
+        Here are some popular movies of Prabhas:
+        - *Baahubali: The Beginning* (2015) – A historical epic.
+        - *Baahubali 2: The Conclusion* (2017) – The legendary throne saga.
+        - *Saaho* (2019) – An action thriller.
+
+    - text: |
+        Here are some popular movies of Nani:
+        - *Eega* (2012) – A revenge story of a man reincarnated as a fly.
+        - *Jersey* (2019) – A heartwarming sports drama.
+        - *Shyam Singha Roy* (2021) – A reincarnation story.
+
+    - text: |
+        Here are some popular movies of Allu Arjun:
+        - *Ala Vaikunthapurramuloo* (2020) – A family entertainer.
+        - *Sarrainodu* (2016) – High-energy action.
+        - *Pushpa: The Rise* (2021) – Red sandalwood smuggling story.       
+  
+  utter_ask_movie_details:
+    - text: |
+        Inception (2010): Directed by Christopher Nolan, this sci-fi thriller follows a skilled thief who enters people’s dreams to steal secrets. He is tasked with planting an idea into the mind of a target, but the line between dreams and reality starts to blur.
+        
+        Avatar (2009): Directed by James Cameron, this visually stunning sci-fi film is set on the alien planet of Pandora. It follows a paraplegic marine, Jake, who becomes involved with the indigenous Na'vi people and their struggle against human exploitation.
+        
+        The Matrix (1999): A groundbreaking sci-fi action film directed by the Wachowskis. It follows a hacker, Neo, who discovers that the reality he lives in is a simulated world controlled by machines, and he is the key to humanity’s survival.
+        
+        Titanic (1997): Directed by James Cameron, this epic romance and disaster film is set aboard the ill-fated R.M.S. Titanic. It follows the love story of Jack and Rose, two passengers from different social classes who fall in love during the ship’s ill-fated maiden voyage.
+        
+        Interstellar (2014): Directed by Christopher Nolan, this epic sci-fi film explores space travel and the survival of humanity. It follows a team of astronauts who journey through a wormhole in search of a new habitable planet as Earth faces environmental collapse.
+        
+        Baahubali: The Beginning (2015): Directed by S.S. Rajamouli, this epic historical fantasy film follows the story of two brothers, one of whom is destined to become a king. The film is set in the fictional kingdom of Mahishmati and features grand visuals and intense action sequences.
+        
+        Arjun Reddy (2017): Directed by Sandeep Reddy Vanga, this intense romantic drama follows Arjun Reddy, a hot-headed medical student who struggles with love and self-destruction after his girlfriend is forced to marry someone else. The film is known for its raw portrayal of emotions and controversial themes.
+        
+        Mahanati (2018): Directed by Nag Ashwin, this biographical drama tells the story of legendary actress Savitri, one of the most iconic stars of Telugu cinema. The film explores her rise to fame, personal struggles, and tragic downfall.
+        
+        Kshana Kshanam (1991): Directed by Ram Gopal Varma, this thriller follows two strangers who are caught in a dangerous situation involving a stolen bag of money. The film is known for its suspenseful plot and strong performances.
+        
+        Eega (2012): Directed by S.S. Rajamouli, this fantasy drama tells the story of a man who is reincarnated as a housefly after being murdered by a businessman. As a fly, he seeks revenge on the man who killed him. The film blends elements of fantasy, drama, and action.
+
+  
+  
+  utter_ask_worst_movies:
+    - text: |
+        Worst Telugu Movies:
+        - Satyamurthy (2015): Despite high expectations, this film disappointed many due to its predictable plot and lackluster performances.
+        - NTR: Kathanayakudu (2019): A biographical drama that failed to live up to the legacy of the legendary NTR, with criticisms about its slow pacing and shallow portrayal of his life.
+        - Saaho (2019): Although it had impressive visuals, Saaho was widely criticized for its confusing narrative and lack of emotional depth.
+        
+        Worst English Movies:
+        - Ra.One (2011): This sci-fi film starring Shah Rukh Khan was criticized for its poor effects, weak storyline, and underwhelming performances despite its large budget.
+        - The Last Airbender (2010): A poorly received adaptation of the beloved animated series, criticized for weak performances, poor dialogue, and inaccuracies in representing the original world.
+        - Gigli (2003): Known for its lack of chemistry between the leads and weak plot, this romantic comedy was universally panned.
+
+  utter_chose_genre:
+    - text:  "Which genre do you prefer? Horror, adventure, comedy, thriller, romantic, or drama?"
+        
+  utter_ask_genre_telugu:
+    - text: "Great! Which genre do you prefer in Telugu? Horror, adventure, comedy, thriller, romantic, or drama?"
+    
+  utter_horror_telugu:
+    - text: |
+        Raatri (1992): A chilling Telugu horror film about a mysterious house with a dark secret.
+        Kshana Kshanam (1991): A gripping thriller that mixes suspense with supernatural elements.
+        Arundhati (2009): A supernatural horror film that combines mystery and horror in a historical setting.
+        
+  utter_adventure_telugu:
+    - text: |
+        Kshana Kshanam (1991): A thrilling adventure of two strangers caught in a dangerous situation.
+        Baahubali: The Beginning (2015): A grand adventure epic of a warrior's journey to claim his kingdom.
+        Rajanna (2011): A historical adventure set in post-independence India.
+        
+  utter_comedy_telugu:
+    - text: |
+        F2: Fun and Frustration (2019): A fun comedy about the lives of two frustrated husbands.
+        Bhale Bhale Magadivoy (2015): A hilarious comedy about a man who suffers from short-term memory loss.
+        Jathi Ratnalu (2021): A comedic journey of three friends trying to escape from a police station.
+
+  utter_thriller_telugu:
+    - text: |
+        Drushyam (2014): A thrilling crime drama where a man covers up a crime to protect his family.
+        24 (2016): A mind-bending thriller about time travel and its consequences.
+        Anukokunda Oka Roju (2005): A psychological thriller about a woman who tries to recall missing memories.
+        
+  utter_romantic_telugu:
+    - text: |
+        Ye Maaya Chesave (2010): A romantic drama about a couple navigating their love amidst family challenges.
+        Kshana Kshanam (1991): A love story set in an adventurous situation between two strangers.
+        Geetha Govindam (2018): A romantic comedy about a man who falls in love with a woman and tries to win her heart.
+        
+  utter_ask_genre_english:
+    - text: "Which genre do you prefer in English? Horror, adventure, comedy, thriller, romantic, or drama?"
+  
+  utter_horror_english:
+    - text: |
+        A Quiet Place (2018): A suspenseful horror movie set in a post-apocalyptic world where monsters hunt by sound.
+        The Conjuring (2013): A chilling film about paranormal investigators dealing with a haunted family.
+        Hereditary (2018): A supernatural horror film that delves into a family's tragic secrets.
+        
+  utter_adventure_english:
+    - text: |
+        Indiana Jones and the Raiders of the Lost Ark (1981): A classic adventure film about an archaeologist seeking a lost artifact.
+        The Secret Life of Walter Mitty (2013): A heartwarming adventure that follows a man on a photo mission.
+        The Lord of the Rings: The Fellowship of the Ring (2001): A grand adventure about a group embarking on a perilous journey.
+
+  utter_comedy_english:
+    - text: |
+        The Hangover (2009): A wild comedy about a bachelor party gone wrong.
+        Superbad (2007): A coming-of-age comedy about high school friends navigating their final school days.
+        The 40-Year-Old Virgin (2005): A comedy about a man trying to lose his virginity before his 40th birthday.
+
+  utter_thriller_english:
+    - text: |
+        Inception (2010): A mind-bending thriller about a thief who enters people's dreams to steal secrets.
+        Shutter Island (2010): A psychological thriller set in a mental institution with a gripping mystery.
+        Gone Girl (2014): A psychological thriller about a man whose wife goes missing under mysterious circumstances.
+
+  utter_romantic_english:
+    - text: |
+        The Notebook (2004): A timeless romance about a couple falling in love but facing life's obstacles.
+        Pride and Prejudice (2005): A classic romance about overcoming social barriers to be together.
+        La La Land (2016): A modern romantic musical about love and ambition in Los Angeles.
+
+  utter_ask_genre:
+    - text: "Which genre do you prefer? Horror, adventure, comedy, thriller, romantic, or drama?"
+actions:
+  - utter_iamabot
+  - utter_bot_challenge
+  - utter_greet
+  - utter_ask_genre_recommendation
+  - utter_ask_movie_genre
+  - utter_ask_genre_telugu
+  - utter_horror_telugu
+  - utter_adventure_telugu
+  - utter_comedy_telugu
+  - utter_thriller_telugu
+  - utter_romantic_telugu
+  - utter_ask_genre_english
+  - utter_horror_english
+  - utter_adventure_english
+  - utter_thriller_english
+  - utter_romantic_english
+  - utter_comedy_english
+  - utter_ask_worst_movies
+  - utter_recommend_adventure_movie
+  - utter_recommend_thriller_movie
+  - utter_recommend_historical_movie
+  - utter_recommend_animated_movie
+  - utter_recommend_horror_movie
+  - utter_recommend_fantasy_movie
+  - utter_recommend_romance_movie
+  - utter_recommend_scifi_movie
+  - utter_did_that_help
+  - utter_cheer_up
+  - utter_goodbye
+  - utter_ask_name
+  - utter_ask_feedback
+  - utter_ask_for_help
+  - utter_thank_you
+  - utter_ask_language
+  - utter_mood_great
+  - utter_mood_unhappy
+  - utter_ask_for_assistance
+  - utter_ask_clarification
+  - utter_ask_assistance
+  - utter_recommend_action_movie
+  - utter_recommend_comedy_movie
+  - utter_recommend_drama_movie
+  - utter_ask_age
+  - utter_recommend_movies_drama
+  - utter_happy
+  - utter_chose_genre
+  - utter_horror
+  - utter_adventure
+  - utter_comedy
+  - utter_thriller
+  - utter_romantic
+  - utter_ask_movie_details
+  - utter_recommend_movies_romantic
+  - utter_recommend_musical_movie
+  - utter_recommend_movies_thriller
+  - utter_recommend_western_movie
+  - utter_recommend_hybrid_genre_movie
+  - utter_ask_movie_recommendation
+  - utter_actor_movies
+  - utter_nlu_fallback
+  - utter_telugu_movies
+slots:
+  genre:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: genre
+  actor_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: actor_name
+  language:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: language
+
+        
+  movie_name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: movie_name
+
+intents:
+  - choose_genre
+  - ask_genre_recommendation
+  - recommend_action_movie
+  - recommend_adventure_movie
+  - recommend_animated_movie
+  - recommend_comedy_movie
+  - recommend_drama_movie
+  - recommend_fantasy_movie
+  - recommend_historical_movie
+  - recommend_horror_movie
+  - recommend_musical_movie
+  - recommend_romance_movie
+  - recommend_scifi_movie
+  - recommend_thriller_movie
+  - recommend_western_movie
+  - recommend_hybrid_genre_movie
+  - ask_movie_details
+  - ask_movie_recommendation
+  - ask_worst_movies
+  - ask_popular_movies
+  - ask_telugu_actor_movies
+  - ask_about_bot
+  - bot_challenge
+  - ask_movie_genre
+  - goodbye
+  - greet 
+  - get_actor_movies
+  - ask_for_telugu_movies
+  - thank_you
+entities:
+  - genre
+  - greet
+  - language
+  - movie_name
+  - actor_name
+
+

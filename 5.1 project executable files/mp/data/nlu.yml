@@ -1,0 +1,440 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: ask_about_bot
+  examples: |
+    - What are you?
+    - Tell me about yourself.
+    - Who are you?
+    - What can you do?
+    - Can you tell me more about you?
+    - What is your purpose?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - thank you
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: choose_genre
+  examples: |
+    - I want to watch [horror](genre) movies
+    - Recommend [comedy](genre) films
+    - Show me some [romantic](genre) movies
+    - I like [adventure](genre) movies
+    - [thriller](genre) movies please
+    - Can you suggest [drama](genre) films?
+    - I'm in the mood for a [comedy](genre) movie
+    - What about [romantic](genre) films?
+    - I prefer [horror](genre) movies
+    - [thriller](genre) sounds good to me
+  
+- intent: ask_movie_genre
+  examples: |
+    - What genres do you have?
+    - Can you suggest a movie genre?
+    - Which movie genres are available?
+    - I want to pick a genre.
+    - Tell me the genres you have.
+    - What type of movies can you recommend?
+    - What kinds of films can you suggest?
+    - What movie genres are there?
+
+- intent: ask_movie_recommendation
+  examples: |
+    - What movie should I watch?
+    - Can you recommend a movie for me?
+    - I need a movie suggestion.
+    - What movie do you suggest?
+    - Can you tell me a good movie to watch?
+    - Suggest a movie for me.
+    - Any good movie recommendations?
+
+
+- intent: recommend_action_movie
+  examples: |
+    - Recommend an action movie
+    - I want to watch an action movie
+    - Suggest an action movie
+    - Action movies, please
+    - Can you recommend action films?
+
+
+- intent: recommend_adventure_movie
+  examples: |
+    - Recommend an adventure movie
+    - Suggest some adventure films
+    - I want to watch an adventure movie
+    - Do you know any good adventure movies?
+    - Adventure movies, please
+    - Can you suggest adventure films?
+
+
+- intent: recommend_animated_movie
+  examples: |
+    - Recommend an animated movie
+    - Can you suggest some animated films?
+    - I want to watch an animated movie
+    - Show me some animated movies
+    - Suggest animated films
+    - Recommend animated movies
+
+
+- intent: recommend_comedy_movie
+  examples: |
+    - Recommend a comedy movie
+    - Suggest some comedy films
+    - I want to watch a funny movie
+    - Can you show me comedy films?
+    - Suggest some funny movies
+    - I need a comedy film recommendation
+
+
+- intent: recommend_drama_movie
+  examples: |
+    - Recommend a drama movie
+    - Suggest some drama films
+    - I want to watch a dramatic movie
+    - Can you show me some drama films?
+    - Suggest good drama movies
+    - I need a drama film recommendation
+
+
+- intent: recommend_fantasy_movie
+  examples: |
+    - Recommend a fantasy movie
+    - Suggest some fantasy films
+    - I want to watch a fantasy movie
+    - Can you show me some fantasy movies?
+    - Suggest good fantasy films
+    - I need a fantasy film recommendation
+    - Recommend a magical movie
+    - Any good fantasy movies to watch?
+
+
+- intent: recommend_historical_movie
+  examples: |
+    - Recommend a historical movie
+    - Suggest some historical films
+    - I want to watch a historical movie
+    - Show me good historical movies
+    - Suggest a historical film to watch
+    - Can you recommend a movie based on history?
+    - I like historical movies. Any suggestions?
+    - Recommend a Telugu historical movie
+    - Show me some classic historical films
+
+
+- intent: recommend_horror_movie
+  examples: |
+    - Recommend a horror movie
+    - Suggest some horror films
+    - I want to watch a horror movie
+    - Show me scary movies
+    - What are some good horror films?
+    - Any Telugu horror movie suggestions?
+    - Recommend me a spooky movie
+    - Can you suggest horror movies?
+    - I like scary movies. What should I watch?
+    - Show me haunted house movies
+
+
+- intent: recommend_musical_movie
+  examples: |
+    - Recommend a musical movie
+    - Suggest some musicals
+    - I want to watch a musical film
+    - What are some good musical movies?
+    - Show me a movie with great songs
+    - Can you recommend a movie with singing and dancing?
+    - I feel like watching a musical
+    - Any Telugu musical films to recommend?
+    - What musicals should I watch?
+    - Do you have any musical movie suggestions?
+
+
+- intent: recommend_romance_movie
+  examples: |
+    - Recommend a romantic movie
+    - Suggest some romantic films
+    - I want to watch a love story
+    - Show me a good romance movie
+    - What are some romantic films to watch?
+    - Any Telugu romantic movies to recommend?
+    - Suggest a romantic film for tonight
+    - I feel like watching a romance movie
+    - Recommend a classic romantic film
+    - What romantic movies should I watch?
+
+
+- intent: recommend_scifi_movie
+  examples: |
+    - Recommend a sci-fi movie
+    - Suggest some science fiction films
+    - I want to watch a sci-fi movie
+    - Show me a good science fiction movie
+    - Can you recommend a Telugu sci-fi film?
+    - What are some must-watch sci-fi movies?
+    - Suggest a sci-fi film for tonight
+    - Recommend movies with a futuristic setting
+    - Any good movies about time travel?
+    - I feel like watching a space movie
+
+
+- intent: recommend_thriller_movie
+  examples: |
+    - Recommend a thriller movie
+    - Suggest some thrilling films
+    - I want to watch a thriller
+    - Show me a good thriller movie
+    - Can you recommend a Telugu thriller?
+    - What are some must-watch thriller movies?
+    - Suggest a suspenseful thriller
+    - Any good crime thrillers to watch?
+    - I feel like watching a psychological thriller
+
+
+- intent: recommend_western_movie
+  examples: |
+    - Recommend a western movie
+    - Show me some good western films
+    - I want to watch a western
+    - What are some great western movies?
+    - Can you suggest a classic western movie?
+    - Tell me about some must-see western films
+    - Any good modern westerns to watch?
+
+
+- intent: recommend_hybrid_genre_movie
+  examples: |
+    - Recommend a hybrid genre movie
+    - Show me some movies that mix genres
+    - I want to watch a movie with different genres
+    - What are some good hybrid genre films?
+    - Can you suggest a movie that blends genres?
+    - What are the best genre-crossing movies?
+    - Tell me about movies that combine genres
+
+
+- intent: ask_genre_recommendation
+  examples: |
+    - What genres do you have?
+    - Can you recommend a movie genre?
+    - I'm looking for a movie genre.
+    - What genre should I watch?
+    - Can you suggest a genre for me?
+    - What kind of genres do you offer?
+    - Show me the available movie genres.
+    - Which genre do you prefer?
+
+- intent: ask_movie_details
+  examples: |
+    - Can you tell me about a movie?
+    - I need details about a movie.
+    - What can you tell me about the movie?
+    - Give me details of a movie.
+    - Tell me more about the movie.
+    - Can you give me information about a movie?
+    - I’m looking for details on a specific movie.
+
+
+- intent: discuss_genre
+  examples: |
+    - I like [action](genre) movies
+    - [Horror](genre) movies are my favorite
+    - [Romance](genre) is the best genre
+    - I'm into [thriller](genre) films
+    - [Comedy](genre) movies make me laugh
+    - I enjoy watching [adventure](genre) movies
+
+- intent: dislike_genre
+  examples: |
+    - I don't like [horror](genre) movies
+    - [Comedy](genre) isn't my thing
+    - I hate [romantic](genre) films
+    - [Action](genre) movies are boring to me
+    - I’m not a fan of [drama](genre) movies
+
+- intent: ask_worst_movies
+  examples: |
+    - Can you give me a list of the worst movies?
+    - Show me some of the worst films ever made.
+    - What are the worst-rated movies of all time?
+    - I want to know about bad movies to avoid.
+    - Recommend some movies that are considered bad.
+    - What are some movies that are known for being terrible?
+    - recommend me a worst movie
+
+- intent: ask_for_telugu_movies
+  examples: |
+    - Tell me some popular Telugu movies
+    - What are the latest Telugu movies?
+    - Give me some popular Telugu films
+    - Can you list some Telugu movies?
+
+
+
+- intent: get_actor_movies
+  examples: |
+    - What are the best movies of Mahesh Babu?
+    - Tell me some movies of Pawan Kalyan.
+    - Recommend movies of Allu Arjun.
+    - Can you show me some NTR Jr movies?
+    - I want to know about Prabhas movies.
+    - List popular movies of Ram Charan.
+
+
+
+    
+- intent: express_interest
+  examples: |
+    - That sounds interesting
+    - I love this idea
+    - This is exciting
+    - Amazing, tell me more
+    - I'm curious about it
+
+- intent: express_disinterest
+  examples: |
+    - Not my cup of tea
+    - I'm not interested
+    - That doesn't sound fun
+    - I don't like this
+    - Sounds boring
+
+- intent: thank
+  examples: |
+    - Thanks
+    - Thank you
+    - I appreciate it
+    - Many thanks
+    - Thanks a lot
+    - I'm grateful
+
+- intent: ask_age
+  examples: |
+    -"How old are you?"
+    -"Can you tell me your age?"
+    -"What’s your age?"
+    -"How many years have you been around?"
+    -"Could you share your age with me?"
+
+- intent: ask_name
+  examples: |
+    - "What's your name?"
+    - "Can I know your name?"
+    - "May I ask your name?"
+    - "How should I address you?"
+    - "What do you go by?"
+- intent: ask_feedback
+  examples: |
+    - "Did you find that helpful?"
+    - "What do you think of the service?"
+    - "Was this useful for you?"
+    - "How did you like the recommendations?"
+    - "Do you have any feedback?"
+- intent: provide_name
+  examples: |
+    - "My name is John."
+    - "I'm Sarah."
+    - "I go by Michael."
+    - "I am Emma."
+    - "My name is Alex, nice to meet you!"
+
+- intent: ask_for_clarification
+  examples: |
+    - "Could you clarify that for me?"
+    - "I'm not sure I understand, can you explain?"
+    - "Can you say that again?"
+    - "What do you mean by that?"
+    - "Could you explain that a bit more?"
+
+- intent: nlu_fallback
+  examples: |
+    - sorry, I didn't understand that
+    - can you repeat that?
+    - I don't know that movie
+    - I don't kow that what you are asking
